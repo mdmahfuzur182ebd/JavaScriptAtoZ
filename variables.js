@@ -38,3 +38,9 @@ console.log(a,b,c);
 console.log(String('213344'))
 
 
+// Boolean
+var a = true;
+var b =false;
+console.log(String(true))
+console.log(a, b)
+
