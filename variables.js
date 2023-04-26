@@ -1,10 +1,10 @@
 
-var name = "Md Mahfuzur Rahman";
-var age = 25;
+// var name = "Md Mahfuzur Rahman";
+// var age = 25;
 
-console.log(name + 'Knows JavaScript')
-console.log('His age is only ' + age)
-console.log(name + 'is crating a Javascript course For All');
+// console.log(name + 'Knows JavaScript')
+// console.log('His age is only ' + age)
+// console.log(name + 'is crating a Javascript course For All');
 
 
 //JavaScript Data type are two primitive and object 
@@ -30,17 +30,23 @@ console.log(name + 'is crating a Javascript course For All');
 
 //Basic String
 
-var a = "String"
-var b = 'string'
-var c = `string `
+// var a = "String"
+// var b = 'string'
+// var c = `string `
 
-console.log(a,b,c);
-console.log(String('213344'))
+// console.log(a,b,c);
+// console.log(String('213344'))
 
 
-// Boolean
-var a = true;
-var b =false;
-console.log(String(true))
-console.log(a, b)
+// // Boolean
+// var a = true;
+// var b =false;
+// console.log(String(true))
+// console.log(a, b)
 
+// NUll and undefine 
+
+// var c
+// var b = null
+// console.log(c)
+// console.log(b)
