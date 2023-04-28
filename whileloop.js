@@ -2,9 +2,11 @@
 var isRunning = true
 while(isRunning){
     var rand = Math.floor(Math.random() * 10 + 1)
-    if(rand == 9){
+    if(rand == 4){
         console.log('Winner Winner Chicken Dinner')
-        isRunning = false
+       // isRunning = false
+       break
+       //continue
     }else{
         console.log('You have got '+ rand)
     }
