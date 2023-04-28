@@ -66,19 +66,60 @@
 //Search from Array in JavaScript
 //Search Data 
 
-let arr = [12, 44, 33, 23, 65, 99, 2 ,1,3,5]
+// let arr = [12, 44, 33, 23, 65, 99, 2 ,1,3,5]
 
-let target = 1
-let isFound = false
+// let target = 1
+// let isFound = false
 
-for (let i = 0; i< arr.length; i++) {
-  if( arr[i] == target){
-    console.log('Data Found At Index : ' + i)
-    isFound = true
-    break
-  }
+// for (let i = 0; i< arr.length; i++) {
+//   if( arr[i] == target){
+//     console.log('Data Found At Index : ' + i)
+//     isFound = true
+//     break
+//   }
+// }
+
+// if(!isFound){
+//     console.log('Data Not Found!!')
+// }
+
+//Multi Dimensional Array
+
+
+let arr = [
+    [78, 80, 90, 79],
+    [80, 82, 84, 89],
+    [79, 86, 87, 99],
+]
+//console.log(arr)
+for ( var i = 0 ; i< arr.length; i++){
+    for(var j =0 ; j<arr[i].length; j++){
+       // console.log('Element '+ i+ ':'+  arr[i][j])
+    }
 }
 
-if(!isFound){
-    console.log('Data Not Found!!')
+let b = [
+    [
+        [89, 67, 87, 98], [65,87,57,87]
+    ]
+]
+//console.log(b)
+for ( var i = 0 ; i<b.length; i++){
+    for(var j =0 ; j<b[i].length; j++){
+        for(var k = 0; k<b[i][j].length; k++){
+          // console.log(b[i][j][k])
+           console.log('Element '+i+j+k+':'+  b[i][j][k])
+        }
+        
+    }
 }
+
+
+let a =[
+    [
+        [
+            [89,98,76], [65,78,98], [89, 77,98]
+        ]
+    ]
+]
+//console.log(a)
