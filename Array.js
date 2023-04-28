@@ -86,40 +86,67 @@
 //Multi Dimensional Array
 
 
-let arr = [
-    [78, 80, 90, 79],
-    [80, 82, 84, 89],
-    [79, 86, 87, 99],
-]
-//console.log(arr)
-for ( var i = 0 ; i< arr.length; i++){
-    for(var j =0 ; j<arr[i].length; j++){
-       // console.log('Element '+ i+ ':'+  arr[i][j])
-    }
-}
+// let arr = [
+//     [78, 80, 90, 79],
+//     [80, 82, 84, 89],
+//     [79, 86, 87, 99],
+// ]
+// //console.log(arr)
+// for ( var i = 0 ; i< arr.length; i++){
+//     for(var j =0 ; j<arr[i].length; j++){
+//        // console.log('Element '+ i+ ':'+  arr[i][j])
+//     }
+// }
 
-let b = [
-    [
-        [89, 67, 87, 98], [65,87,57,87]
-    ]
-]
-//console.log(b)
-for ( var i = 0 ; i<b.length; i++){
-    for(var j =0 ; j<b[i].length; j++){
-        for(var k = 0; k<b[i][j].length; k++){
-          // console.log(b[i][j][k])
-           console.log('Element '+i+j+k+':'+  b[i][j][k])
-        }
+// let b = [
+//     [
+//         [89, 67, 87, 98], [65,87,57,87]
+//     ]
+// ]
+// //console.log(b)
+// for ( var i = 0 ; i<b.length; i++){
+//     for(var j =0 ; j<b[i].length; j++){
+//         for(var k = 0; k<b[i][j].length; k++){
+//           // console.log(b[i][j][k])
+//            console.log('Element '+i+j+k+':'+  b[i][j][k])
+//         }
         
-    }
+//     }
+// }
+
+
+// let a =[
+//     [
+//         [
+//             [89,98,76], [65,78,98], [89, 77,98]
+//         ]
+//     ]
+// ]
+// //console.log(a)
+
+
+
+//Reverse and Array
+
+let arr = [1,2,3,4,5] //[5,4,3,2,1] reverse
+
+for (let i = 0; i < (arr.length/2); i++) {
+  //  console.log(i)
+   let temp = arr[i]
+   //console.log(temp)
+   arr[i] =arr[arr.length-1-i]
+  // console.log(arr[arr.length-1-i])
+   arr[arr.length-1-i] = temp
+  // console.log(temp)
 }
+console.log(arr)
+//console.log(arr.length)
 
+// for (let i = arr.length-1; i>=0; i--) {
+//     const element = arr[i];
+//     console.log(element)
+    
+// }
 
-let a =[
-    [
-        [
-            [89,98,76], [65,78,98], [89, 77,98]
-        ]
-    ]
-]
-//console.log(a)
+//console.log(arr.reverse()) //build in function reverse
+//console.log(arr.length)
