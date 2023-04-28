@@ -38,26 +38,47 @@
 //Insert , Remove $ Replace Methods
 
 
-var arr = [1,2,4,9,34]
-//insert 44 index 3
+// var arr = [1,2,4,9,34]
+// //insert 44 index 3
 
-arr[3] = 44
-arr.push(44)
-arr.unshift(44)
-arr.splice(3, 0, 44, 55) //insert
+// arr[3] = 44
+// arr.push(44)
+// arr.unshift(44)
+// arr.splice(3, 0, 44, 55) //insert
 
-//delete
+// //delete
 
-arr[3] = null
-arr[3] = undefined
-arr.pop()
-arr.shift()
-arr.splice(3,1)
+// arr[3] = null
+// arr[3] = undefined
+// arr.pop()
+// arr.shift()
+// arr.splice(3,1)
 
-//update and Replace
+// //update and Replace
 
-arr[3] =45
-arr.splice(2,1,35)
+// arr[3] =45
+// arr.splice(2,1,35)
 
-console.log(arr)
-console.log(arr.length)
+// console.log(arr)
+// console.log(arr.length)
+
+
+//Search from Array in JavaScript
+//Search Data 
+
+let arr = [12, 44, 33, 23, 65, 99, 2 ,1,3,5]
+
+let target = 1
+let isFound = false
+
+for (let i = 0; i< arr.length; i++) {
+  if( arr[i] == target){
+    console.log('Data Found At Index : ' + i)
+    isFound = true
+    break
+  }
+}
+
+if(!isFound){
+    console.log('Data Not Found!!')
+}
