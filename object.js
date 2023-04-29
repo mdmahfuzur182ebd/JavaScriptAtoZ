@@ -39,8 +39,12 @@ var point = {
     year: '2023'
 }
 
+point.name = 'Nothing'
+point['age'] = 23
+
 console.log(point.x)
 console.log(point.name)
 console.log(point.age)
 console.log(point['year'])
 console.log(point['x'])
+//console.log(point.d)
