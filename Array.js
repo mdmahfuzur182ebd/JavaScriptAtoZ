@@ -128,7 +128,7 @@
 
 //Reverse and Array
 
-let arr = [1,2,3,4,5] //[5,4,3,2,1] reverse
+let arr = [1,2,3,4,5,9] //[5,4,3,2,1] reverse
 
 for (let i = 0; i < (arr.length/2); i++) {
   //  console.log(i)
@@ -150,3 +150,17 @@ console.log(arr)
 
 //console.log(arr.reverse()) //build in function reverse
 //console.log(arr.length)
+
+//Array Function........
+
+
+var arr1 = [44,23,42,12,31,32,12]
+console.log(arr1.join('.'))
+
+var arr3 = [45, 34, 23, 56]
+
+var arr2 = arr1.concat(arr3)
+console.log(arr2)
+
+
+console.log(arr3.fill(undefined))
