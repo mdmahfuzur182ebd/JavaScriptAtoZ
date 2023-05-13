@@ -3,10 +3,10 @@
 
 function something(a, b, c){
     console.log(arguments)
-    //console.log(typeof b)
+    console.log(typeof b)
 }
 
-//something(12, 4,55)
+something(12, 4,55)
 
 
 
